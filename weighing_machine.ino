@@ -1,3 +1,14 @@
+/*************************************
+* This code is written by Andrii Valchuk
+* GitHub: https://github.com/AndriiVal
+* 
+* 
+* Microcontroller: ATmega328P (Old)
+* Dev board:       Arduino nano
+* LCD 1602
+* HX711
+*************************************/
+
 #include "HX711.h"
 #include <LiquidCrystal.h>
 #include <EEPROM.h>
@@ -163,4 +174,3 @@ void loop() {
     butt_flag2 = 0;
   }
 }
-
