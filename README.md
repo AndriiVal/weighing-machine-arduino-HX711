@@ -30,7 +30,7 @@ This step is optional and you can directly put the weights on the Load cell with
 
 ![weight arduino3](./images/weight_arduino3.png)
 
-Circuit Explanation:
+Circuit:
 --------------------
 
 ![Arduino Weight](./images/ArduinoWeight.png)
@@ -66,7 +66,7 @@ Circuit Explanation:
  
 ![Load Cell HX711 module](./images/LoadCellHX711module.png)
  
-Working Explanation:
+Usage:
 --------------------
 
 ![lcd 0](./images/lcd0.png)
@@ -84,3 +84,7 @@ When user will power it up then system will automatically start reset zero. And 
 For calibration, press the push Button2 wait for LCD indication for putting 100 gram over the load cell as shown in below picture. When LCD will show “put 100g” then put the 100g weight over the load cell and wait. After some seconds calibration process will be finished. After calibration user may put any weight (max 10kg) over the load cell and can get the value over LCD in grams.
 
 ![lcd put](./images/lcdput.png)
+
+License
+-----------------
+MIT License
